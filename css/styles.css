@@ -1,0 +1,80 @@
+/*demo page css*/
+h2.demoHeaders { color:#666;border-bottom:1px solid #ccc;padding-bottom:6px; }
+html {background: #fff url(../img/body-bg.png) repeat-y 0 0;padding:0; }
+body{ font: 62.5% "Trebuchet MS", sans-serif;margin:0; padding:20px 50px; width:770px;}
+#dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+ul#icons {margin: 0; padding: 0;}
+ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+ul#icons span.ui-icon {float: left; margin: 0 4px;}
+.big { font-size: 120%;}
+.mcalc-options {
+    border-collapse:collapse;
+    width:100%;
+}
+.mcalc-options thead th {
+    padding:4px;
+    text-align:left;
+}
+.mcalc-options tbody td {
+    padding:4px;
+    border-bottom:1px solid #eee;
+}
+pre {
+    padding:10px;
+    font-size:120%;
+    background:#f4f4f4;
+    border:1px solid #eee;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+.toc {
+    background:#fff;
+    border:1px solid #ddd;
+    border-width:0 8px 8px 0;
+    position:fixed;
+    *position:absolute;
+    left:870px;
+    top:0;
+    padding:30px 20px 30px 30px;
+    -webkit-border-radius-topRight:9px;
+    -moz-border-radius-bottomRight:9px;
+    -webkit-border-radius-bottomRight:9px;
+}
+.toc { width:200px; font-size:110%; }
+.toc, .toc ol { 
+    list-style:none;
+    padding:0 20px 0 10px; 
+    *margin:0; /* IE FIX */
+}
+.toc, .toc ol li { margin-left:0;padding:3px 0 3px 0; }
+.toc ol li { border-bottom:1px dotted #ddd; }
+.toc ol li ol li { border-bottom:0; padding:3px 0 3px 10px; font-size:90%; }
+.opt-select {
+    margin:0;
+    padding:0;
+}
+.opt-select li {
+    list-style:none;
+    margin:0;
+    padding:2px 0;
+    font-size:120%;
+}
+.opt-select li ul {
+    margin-left:18px;
+    border-left:2px solid #ddd;
+    padding-left:4px;
+    font-size:80%;
+    line-height:1.2em;
+}
+.disabled { color:#999; }
+#editor { line-height: 3.5em;}
+
+#menu {
+    position:absolute;
+    left:690px;
+    top:30px;
+}
+.opt-select label {
+    cursor:pointer;
+}

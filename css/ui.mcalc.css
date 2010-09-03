@@ -1,0 +1,208 @@
+/* Calculator skin */
+ul.ui-form {
+    margin:10px 0;
+    padding:0 15px 0 0;
+    *padding:0 0 0 0; /* IE FIX */
+    width:250px;
+}
+ul.ui-form li {
+    list-style:none;
+    margin:0;
+    padding:5px 0;
+    border-bottom:1px solid #ddd;
+}
+ul.ui-form li small {
+    color:#666;
+    margin-left:4px;
+}
+ul.ui-form label {
+    display:block;
+    float:left;
+    width:100px;
+    padding:4px 0;
+}
+.ui-formpane {
+    float:left;
+    width:290px;
+}
+.ui-mcalc-form {
+    float:left;
+}
+.ui-mcalc-total, .ui-mcalc-subtotal {
+    height:22px;
+}
+.ui-mcalc-subtotal b {
+    font-weight:normal;
+}
+.ui-mcalc-total b, .ui-mcalc-subtotal b { /* IE6 FIX */
+    font-family:sans-serif;
+    font-size:180%; 
+}
+.ui-mcalc-total > b, .ui-mcalc-subtotal > b {
+    font-family:monospace;
+    font-size:210%;
+    *font-size:180%; /* IE7 FIX */
+}
+#tab-1 .ui-chart {
+    width:290px;
+    height:100px;
+    background-color:transparent;
+    background-repeat:no-repeat;
+    background-position:0 0;
+    cursor:pointer;
+    margin-top:10px;
+}
+.ui-help {
+    position:relative;
+    padding: 0pt 0.7em;
+    margin-top:10px;
+    *padding: 0.7em; /* IE fix */
+}
+.ui-help span {
+    float: left;
+    margin-right: 0.3em;
+    margin-top:0.9em;
+}
+.ui-help p {
+    margin-left:20px;
+}
+.ui-help .ui-icon {
+    *margin-top:2px; /* IE fix */
+}
+.ui-amortable {
+    width:100%;
+    border-collapse:collapse;
+}
+.ui-amortable thead th {
+    padding:3px 4px 2px 4px;
+    text-align:left;
+}
+.ui-amortable tbody {
+}
+.ui-amortable tbody tr { background:#fff;color:#333; }
+.ui-amortable tbody tr.odd { background:#f4f4f4; }
+.ui-amortable tbody td {
+    padding:1px;
+    font-family:monospace;
+    font-size:120%;
+}
+.ui-amortable tbody th {
+    padding:1px;
+    font-family:monospace;
+    font-weight:bold;
+    font-size:120%;
+}
+
+
+.ui-mcalc-slider {
+    margin:10px 5px!important;
+    width:400px!important;
+    float:left;
+}
+.ui-amortoolbar {
+    margin-bottom:10px;
+    *margin-bottom:15px; /* IE fix */
+}
+.ui-amortoolbar label {
+    margin:5px 0 0 5px;
+}
+.ui-amortoolbar span {
+    font-size:180%;
+    font-weight:bold;
+    margin:5px 0 0 5px;
+}
+.ui-amortoolbar label input {
+    position:relative;
+    top:2px;
+}
+.ui-slider-handle {
+    cursor:move!important;
+}
+.ui-amortcharts {
+    margin:10px 0;
+    *margin:20px 0 10px 0;
+}
+.ui-amortcharts-amort {
+    float:right;
+}
+.ui-amortcharts-balance {
+    float:left;
+}
+.ui-summary {
+    padding:10px;
+}
+.ui-summary dt {
+    float:left;
+    width:120px;
+    font-weight:bold;
+    padding:8px;
+    border-bottom:1px solid #ddd;
+}
+.ui-summary dd {
+    padding:8px;
+    border-bottom:1px solid #ddd;
+}
+.ui-summary .no-border {
+    border:0;
+}
+#theme {
+    position:absolute;
+    top:70px;
+    left:680px;
+}
+.ui-button {
+    padding:0.4em 1em 0.4em 20px;
+    position:relative;
+    text-decoration:none;
+    cursor:pointer;
+}
+.ui-button .ui-icon {
+    left:0.2em;
+    margin:-8px 5px 0 0;
+    position:absolute;
+    top:50%;
+}
+.jquery-ui-themeswitcher-trigger {
+    margin-top:10px;
+}
+.color-hex {
+    width:50px;
+    padding:2px;
+    border:1px solid #555!important;
+}
+.ui-chart-colors {
+    float:left;
+}
+.ui-chart-colors input {
+    width:70px;
+}
+#ui-mcalc-principal {
+    width:70px;
+}
+#ui-mcalc-chart-colorwheel1 {
+    float:left;
+    margin:10px 40px 10px 0;
+}
+.ui-mcalc-permalink {
+    margin:6px 0 4px 0;
+    *margin:6px 0 4px 15px; /* IE FIX */
+}
+.ui-mcalc-permalink label {
+    display:block;
+}
+.ui-mcalc-permalink input {
+    width:100%;
+}
+#mcalc-print-summary { float:right; margin:20px 0 0 0;}
+
+
+.ui-amortoolbar .ui-slider-handle span {
+    cursor:default;
+    height:1.2em;
+    opacity:0.5;
+    padding:3px 0 7px;
+    position:absolute;
+    text-align:center;
+    width:5em;
+    z-index:2;
+}
